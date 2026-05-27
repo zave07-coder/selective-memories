@@ -8,6 +8,7 @@ export default function Home() {
   const [currentTrack, setCurrentTrack] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(null);
+  const [expandedLyrics, setExpandedLyrics] = useState<number | null>(null);
   const chapterRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const tracks = [
@@ -18,12 +19,105 @@ export default function Home() {
       chapter: "Track 1 · The Spiral",
       act: "ACT I — THE UNRAVELING",
       mood: "Obsession",
-      accentColor: "#22d3ee",   // cyan
+      accentColor: "#22d3ee",
       accent: "#22d3ee",
       story: "The mind won't stop. You replay every moment, every word, every silence — round and round until the madness feels like home.",
       lyricHighlight: "Going round and round / In this circle of craze",
       lyricTranslation: "The spiral is the only thing that feels real.",
       illustration: "spiral",
+      lyrics: `[Intro Riff]
+
+[Verse]
+Tasteless favourites
+Priceless secrets
+What do you mean
+that you don't have a say
+
+Trendy fashion
+(what a) Revelation
+What do you mean
+that you are just so unheard
+
+[Prechorus]
+maybe
+The roads aint so clear and straight
+To begin with
+Without
+the signs to be through
+Do you
+think you could make it to that truth
+
+[Chorus]
+Don't fret
+When you are
+Lost in the maze
+When your
+mind drifts far away
+That is your circle of craze
+
+You bet you
+aint but
+You're just another inmate
+You're just another facade
+of your circle of craze
+
+[Bridge: Rap]
+Oh no!
+I think I'm lost in the circle of craze
+it's like I'm stuck in a maze
+I hope there's several ways
+for me to roll back the days
+It like I'm stuck and lost in the circle of craze
+
+i hope I'm not the only one
+that is lost in the circle of craze
+any other pitiful ones
+especially excitable ones
+Do you (upbeat)
+think you could make it to that truth
+
+[Prechorus]
+maybe
+The roads aint so clear and straight
+To begin with
+Without
+the signs to be through
+Do you
+think you could make it to that truth
+
+[Chorus]
+Don't fret
+When you are
+Lost in the maze
+When your
+mind drifts far away
+That is your circle of craze
+
+You bet you
+aint but
+You're just another inmate
+You're just another facade
+of your circle of craze
+
+[Final Chorus: with guitar solo overlayed by vocals]
+Don't fret
+When you are
+Lost in the maze
+When your
+mind drifts far away
+That is your circle of craze
+
+You bet you
+aint but
+You're just another inmate
+You're just another facade
+of your circle o craze
+
+[Verse: Sung quietly]
+Tasteless favourites
+Priceless secrets
+What do you mean
+that you don't have a say`,
     },
     {
       title: "Old Photographs",
@@ -32,12 +126,84 @@ export default function Home() {
       chapter: "Track 2 · The Archive",
       act: "ACT I — THE UNRAVELING",
       mood: "Nostalgia",
-      accentColor: "#fb923c",   // amber-orange
+      accentColor: "#fb923c",
       accent: "#fb923c",
       story: "A drawer pulled open by accident. Faces you almost forgot. The past is always more vivid than the present — frozen in frames that never age.",
       lyricHighlight: "These old photographs / Tell the stories we forgot",
       lyricTranslation: "Memory has its own light.",
       illustration: "photograph",
+      lyrics: `[Verse 1]
+Old photographs on my bed
+Memories filling my head
+What am I to say
+There are so many
+So many to play
+
+[Verse 2]
+You laughed at the things that I said
+Those thoughts still burn in my head
+What are you to say
+There are so little
+So little to waste
+
+[Prechorus]
+Life's a dream
+Said I don't know where to keep it oh
+Dreams they are calling
+Said I don't know, don't know where I'm going whooa baby
+
+[Chorus]
+Old photographs
+As jaded as the sun
+Whatever you could think about
+That lies beneath the clouds
+
+Old photographs
+As faded as the crowd
+Whatever you are doing now
+Remember the good times in the past
+
+[Guitar Solo]
+
+[Verse 3]
+The crazy things that we do
+The places that we used to go
+What are we to say
+There are so many
+Things that we break
+
+[Verse 4]
+One summer we are lazy with this
+The other we are crazy about that
+What are we to say
+There are so little
+Time for a break
+
+[Prechorus]
+Life's a dream
+Said I don't know where to keep it oh
+Dreams they are calling
+Said I don't know, don't know where I'm going whooa baby
+
+[Chorus]
+Old photographs
+As jaded as the sun
+Whatever you could think about
+That lies beneath the clouds
+
+Old photographs
+As faded as the crowd
+Whatever you are doing now
+Remember the good times in the past
+
+[Final Chorus]
+Old photographs
+As crazy as we are
+Whenever you are feeling down
+Remember these old photographs
+
+Whenever you are feeling down
+Remember our old photographs`,
     },
     {
       title: "Look At Me Now",
@@ -46,12 +212,69 @@ export default function Home() {
       chapter: "Track 3 · The Rise",
       act: "ACT II — THE TURNING",
       mood: "Defiance",
-      accentColor: "#34d399",   // emerald
+      accentColor: "#34d399",
       accent: "#34d399",
       story: "You thought the fall would be the end. It was the beginning. From the wreckage came something tougher, cleaner, brighter. Look at me now.",
       lyricHighlight: "Look at me now / I'm not who I was before",
       lyricTranslation: "Survival is its own kind of art.",
       illustration: "rise",
+      lyrics: `[Verse 1]
+Oh, won't you look at me now, I'm feeling insecure
+I must be losing my mind, oh I am feeling cold
+What do you think of the times when I am feeling so jaded
+So look at me
+Just look at me
+
+[Chorus]
+Now… ah ha… I am flying inside
+Now… ah ha… I am flying outside
+Won't you look at me now
+Won't you look at me now
+Won't you look at me now
+Won't you look at me now
+Won't you look at me now
+Yes, I can look alright now
+
+[Verse 2]
+Oh, when the daylight breaks in, I'm waking up unsure
+The world keeps spinning me 'round, I'm crashing on a roll
+But then I'm hearing the sound of all the people turning around
+So look at me
+Just look at me
+
+[Chorus]
+Now… ah ha… I am flying inside
+Now… ah ha… I am flying outside
+Won't you look at me now
+Won't you look at me now
+Won't you look at me now
+Won't you look at me now
+Won't you look at me now
+Yes, I can look alright now
+
+[Bridge]
+I've been hiding in shadows I made
+Running from echoes I never could fade
+But now the silence is bursting to flame
+I'm rising again
+I'm rising again
+
+[Final Chorus]
+Now… ah ha… I am flying inside
+Now… ah ha… I am flying outside
+Won't you look at me now
+Won't you look at me now
+I'm not the same somehow
+Won't you look at me now
+Won't you look at me now
+Oh I can breathe again now
+Yes, I can look alright now
+
+[Outro]
+Look at me now
+Look at me now
+Look at me now
+Yes, I can look alright now`,
     },
     {
       title: "Hurt Me No More",
@@ -60,12 +283,61 @@ export default function Home() {
       chapter: "Track 4 · The Line",
       act: "ACT II — THE TURNING",
       mood: "Resolution",
-      accentColor: "#f43f5e",   // rose-red
+      accentColor: "#f43f5e",
       accent: "#f43f5e",
       story: "There is a moment — quiet, certain — when enough becomes enough. Not with anger. With clarity. You close the door. You mean it this time.",
       lyricHighlight: "Hurt me no more / I've made up my mind",
       lyricTranslation: "Boundaries are not walls. They are doors you choose to keep closed.",
       illustration: "door",
+      lyrics: `[Verse]
+Oh when I leave my mind
+Sort of just left it behind
+It felt so easy
+Oo im featherlight I've got a war in my mind
+I'm going crazy
+With the hurt inside
+Selective memories sing
+Of strifes that never cease to burn my paper heart
+So crazy
+
+[Chorus]
+Cause I dont wanna dream
+This time to regret tomorrow for today
+Cause sometimes life's a bitch
+Cause I dont wanna live a life that is full of hurt inside
+Wont you hurt me somemore
+Now wont you hurt me somemore
+Now wont you hurt me
+No more
+
+[Verse]
+Oh when I leave my mind
+Sort of just left it behind
+It felt so easy
+Oo im featherlight I've got a war in my mind
+I'm going crazy
+With the hurt inside
+Selective memories sing
+Of strifes that never cease to burn my paper heart
+So crazy
+
+[Chorus]
+Cause I dont wanna dream
+This time to regret tomorrow for today
+Cause sometimes life's a bitch
+Cause I dont wanna live a life that is full of hurt inside
+Wont you hurt me somemore
+Now wont you hurt me somemore
+Now wont you hurt me
+
+[Final Chorus]
+Cause I dont wanna dream
+This time to regret tomorrow for today
+Cause sometimes life's a bitch
+Cause I dont wanna live a life that is full of hurt inside
+Wont you hurt me somemore
+Now wont you hurt me somemore
+Now wont you hurt me no more`,
     },
     {
       title: "Confused",
@@ -74,12 +346,49 @@ export default function Home() {
       chapter: "Track 5 · The Fog",
       act: "ACT II — THE TURNING",
       mood: "Liminal",
-      accentColor: "#a78bfa",   // violet
+      accentColor: "#a78bfa",
       accent: "#a78bfa",
       story: "Between who you were and who you're becoming, there is a fog. You can't see forward. You can't go back. You exist in the in-between.",
       lyricHighlight: "I'm so confused / Don't know which way to go",
       lyricTranslation: "The fog is not a failure. It is the space where you change.",
       illustration: "fog",
+      lyrics: `[Verse 1]
+I'm....
+So confused..
+I'm....
+Just like you..
+Turn around and tell me what are we supposed to do
+I'll leave a page and hook it on, that's simply just for you
+
+[Chorus]
+Love's just rising in the far away sense
+Love's just keeping me so lost....
+Winter's changing seasons for you ooooooh
+Just don't keep me so confused
+
+[Verse 2]
+I'm...
+So confused..
+I.. think
+I love you..
+I think about you everyday and don't know what to do
+Your crazy moves they drive me round; I'm simply so confused
+
+[Chorus]
+Love's just rising in the far away sense
+Love's just keeping me so lost....
+Winter's changing seasons for you ooooooh
+Just don't keep me so confused
+
+[Final Chorus]
+Love's just rising in the far away sense
+Love's just keeping me so lost....
+Winter's changing seasons for you ooooooh
+Just don't keep me so confused
+
+Just don't keep me so confused
+
+[Outro]`,
     },
     {
       title: "Selectivism",
@@ -88,12 +397,52 @@ export default function Home() {
       chapter: "Track 6 · The Choice",
       act: "ACT III — THE CURATION",
       mood: "Clarity",
-      accentColor: "#e2e8f0",   // silver-white
+      accentColor: "#e2e8f0",
       accent: "#e2e8f0",
       story: "Not every memory deserves a frame. Selectivism is the art of choosing what you carry forward — and the freedom of letting the rest become dust.",
       lyricHighlight: "I choose what I remember / Leave the rest behind",
       lyricTranslation: "Memory is not a museum. It is a curation.",
       illustration: "frame",
+      lyrics: `[Verse]
+Don't wanna find out if there's a million stars up in the sky
+Just keep it in your mind
+Don't wanna find out even if it's only tonight
+Cause all I'm thinking of is
+
+[Chorus]
+All i want is just to see you so fine
+Hold you so tight and see your sunshine laughter fly
+To me being happy is what you can't perceive in
+You got a choice now baby
+Sometimes things aint just looking so right.
+Selectivism~
+Think~~
+
+[Verse]
+Sometimes politeness couldn't get you free off the line
+Just keep it in your mind
+Somewhere you could find a band that sings to your desire
+For your soul satisfaction
+
+[Chorus]
+All i want is just to see you so fine
+Hold you so tight and see your sunshine laughter fly
+To me being happy is what you can't perceive in
+You got a choice now baby
+Sometimes things aint just looking so right.
+Selectivism~
+Think~~
+
+[Final Chorus]
+All i want is just to see you so fine
+Hold you so tight and see your sunshine laughter fly
+To me being happy is what you can't perceive in
+You got a choice now baby
+Sometimes things aint just looking so right.
+Selectivism~
+Think~~
+
+You got a choice now baby. Selectivism~ Think.`,
     },
     {
       title: "Day and Night",
@@ -102,12 +451,86 @@ export default function Home() {
       chapter: "Track 7 · The Balance",
       act: "ACT III — THE CURATION",
       mood: "Acceptance",
-      accentColor: "#fcd34d",   // gold
+      accentColor: "#fcd34d",
       accent: "#fcd34d",
       story: "Two versions of yourself. The one the world sees by day — composed, forward-moving. The one only you know at night — tender, honest, still healing. Both are real. Both are you.",
       lyricHighlight: "In the day I smile / At night I feel it all",
       lyricTranslation: "You are allowed to be both.",
       illustration: "daynight",
+      lyrics: `[Verse]
+Some days I'm feeling all quite right
+Some days I'm getting all too bright
+Today I'll just wait for the twilight
+
+[Verse]
+Some nights I'm getting all the brine
+Some nights I'm hearing all the whine
+Tonight I'll just wait for the line
+
+[PreChorus]
+No matter if it's day or nite in my life
+You can give me all the sunshine
+And when I look into your eyes
+No matter whatever
+Just seems to be behind
+
+[Chorus]
+All day and all night long
+In my school of crazy thoughts
+Just thinking of you, whoooo ooh
+Sometimes I just wonder why
+I just can't get you off my mind
+All day and all night long
+My world's spinning all along
+Just turning for you, whoooo ooh
+Sometimes I just can't survive
+Without you so I'm missing all day all night long
+
+[Bridge: Melodic Rap]
+Some days I'm calm, but my thoughts drift to you,
+Sippin' through the silence like I always do.
+Some days I glow, but the shine feels untrue,
+'Cause every ray of light just reminds me of you.
+Some nights I fade, sink deep in my mind,
+Playin' back moments we left behind.
+Some nights I wait, hopin' I'll find
+A trace of your voice in the quiet of time.
+
+[PreChorus]
+No matter if it's day or nite in my life
+You can give me all the sunshine
+And when I look into your eyes
+No matter whatever
+Just seems to be behind
+
+[Chorus]
+All day and all night long
+In my school of crazy thoughts
+Just thinking of you, whoooo ooh
+Sometimes I just wonder why
+I just can't get you off my mind
+All day and all night long
+My world's spinning all along
+Just turning for you, whoooo ooh
+Sometimes I just can't survive
+Without you so I'm missing all day all night long
+
+[Outro Rap]
+Some days the sun cuts deep through my eyes,
+And I swear I still see your face in the sky.
+Some nights the stars don't even try,
+Feels like they miss you, same as I.
+I'm still here, lost in the dark,
+Whisperin' your name to the beat of my heart.
+If you ever shine again through the night,
+I'll be the one still thinkin' of you, holdin' that light.
+
+[Final Chorus]
+All day and all night long
+My world's spinning all along
+Just turning for you, whoooo ooh
+Sometimes I just can't survive
+Without you so I'm missing all day all night long`,
     },
   ];
 
@@ -410,7 +833,7 @@ export default function Home() {
                       </div>
 
                       {/* Play button + track nav */}
-                      <div className="flex items-center gap-4">
+                      <div className="flex items-center gap-4 flex-wrap">
                         <button
                           onClick={() => {
                             setCurrentTrack(index);
@@ -427,6 +850,17 @@ export default function Home() {
                             )}
                           </svg>
                           {currentTrack === index && isPlaying ? "Pause" : "Play"}
+                        </button>
+
+                        <button
+                          onClick={() => setExpandedLyrics(expandedLyrics === index ? null : index)}
+                          className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm tracking-wide transition-all hover:scale-105"
+                          style={{ background: "rgba(255,255,255,0.04)", color: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.1)" }}
+                        >
+                          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h10M4 18h7" />
+                          </svg>
+                          {expandedLyrics === index ? "Hide Lyrics" : "Lyrics"}
                         </button>
 
                         {/* Track dots */}
@@ -451,6 +885,31 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+
+                  {/* Lyrics panel */}
+                  {expandedLyrics === index && (
+                    <div className="mt-12 pt-10 border-t" style={{ borderColor: `${track.accent}15` }}>
+                      <div className="max-w-2xl mx-auto">
+                        <p className="text-xs uppercase tracking-[0.4em] mb-6" style={{ color: `${track.accent}50` }}>
+                          Full Lyrics
+                        </p>
+                        <div className="text-sm leading-loose" style={{ color: "rgba(255,255,255,0.55)" }}>
+                          {track.lyrics.split('\n').map((line, li) => {
+                            const isSection = /^\[.+\]$/.test(line.trim());
+                            if (isSection) {
+                              return (
+                                <p key={li} className="text-xs uppercase tracking-widest mt-6 mb-2 font-medium" style={{ color: `${track.accent}70` }}>
+                                  {line.replace(/[\[\]]/g, '')}
+                                </p>
+                              );
+                            }
+                            if (line.trim() === '') return <div key={li} className="h-2" />;
+                            return <p key={li}>{line}</p>;
+                          })}
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
