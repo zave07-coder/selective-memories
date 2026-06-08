@@ -25,99 +25,17 @@ export default function Home() {
       lyricHighlight: "Going round and round / In this circle of craze",
       lyricTranslation: "The spiral is the only thing that feels real.",
       illustration: "spiral",
-      lyrics: `[Intro Riff]
-
-[Verse]
-Tasteless favourites
-Priceless secrets
-What do you mean
-that you don't have a say
-
-Trendy fashion
-(what a) Revelation
-What do you mean
-that you are just so unheard
-
-[Prechorus]
-maybe
-The roads aint so clear and straight
-To begin with
-Without
-the signs to be through
-Do you
-think you could make it to that truth
-
-[Chorus]
-Don't fret
-When you are
-Lost in the maze
-When your
-mind drifts far away
-That is your circle of craze
-
-You bet you
-aint but
-You're just another inmate
-You're just another facade
-of your circle of craze
-
-[Bridge: Rap]
-Oh no!
-I think I'm lost in the circle of craze
-it's like I'm stuck in a maze
-I hope there's several ways
-for me to roll back the days
-It like I'm stuck and lost in the circle of craze
-
-i hope I'm not the only one
-that is lost in the circle of craze
-any other pitiful ones
-especially excitable ones
-Do you (upbeat)
-think you could make it to that truth
-
-[Prechorus]
-maybe
-The roads aint so clear and straight
-To begin with
-Without
-the signs to be through
-Do you
-think you could make it to that truth
-
-[Chorus]
-Don't fret
-When you are
-Lost in the maze
-When your
-mind drifts far away
-That is your circle of craze
-
-You bet you
-aint but
-You're just another inmate
-You're just another facade
-of your circle of craze
-
-[Final Chorus: with guitar solo overlayed by vocals]
-Don't fret
-When you are
-Lost in the maze
-When your
-mind drifts far away
-That is your circle of craze
-
-You bet you
-aint but
-You're just another inmate
-You're just another facade
-of your circle o craze
-
-[Verse: Sung quietly]
-Tasteless favourites
-Priceless secrets
-What do you mean
-that you don't have a say`,
+      lyricsBlocks: [
+        { label: "Verse", lines: ["Tasteless favourites", "Priceless secrets", "What do you mean", "that you don't have a say", "Trendy fashion", "(what a) Revelation", "What do you mean", "that you are just so unheard"] },
+        { label: "Prechorus", lines: ["maybe", "The roads aint so clear and straight", "To begin with", "Without", "the signs to be through", "Do you", "think you could make it to that truth"] },
+        { label: "Chorus", lines: ["Don't fret", "When you are", "Lost in the maze", "When your", "mind drifts far away", "That is your circle of craze", "You bet you", "aint but", "You're just another inmate", "You're just another facade", "of your circle of craze"] },
+        { label: "Bridge: Rap", lines: ["Oh no!", "I think I'm lost in the circle of craze", "it's like I'm stuck in a maze", "I hope there's several ways", "for me to roll back the days", "It like I'm stuck and lost in the circle of craze", "i hope I'm not the only one", "that is lost in the circle of craze", "any other pitiful ones", "especially excitable ones", "Do you (upbeat)", "think you could make it to that truth"] },
+        { label: "Prechorus", lines: ["maybe", "The roads aint so clear and straight", "To begin with", "Without", "the signs to be through", "Do you", "think you could make it to that truth"] },
+        { label: "Chorus", lines: ["Don't fret", "When you are", "Lost in the maze", "When your", "mind drifts far away", "That is your circle of craze", "You bet you", "aint but", "You're just another inmate", "You're just another facade", "of your circle of craze"] },
+        { label: "Final Chorus", lines: ["Don't fret", "When you are", "Lost in the maze", "When your", "mind drifts far away", "That is your circle of craze", "You bet you", "aint but", "You're just another inmate", "You're just another facade", "of your circle o craze"] },
+        { label: "Verse: Sung quietly", lines: ["Tasteless favourites", "Priceless secrets", "What do you mean", "that you don't have a say"] },
+      ],
+      lineTimes: [13.8, 13.8, 19.68, 19.68, 27.4, 27.4, 33.3, 33.3, 33.3, 39.14, 51.86, 88.72, 119.22, 127.0, 119.22, 127.0, 127.0, 188.94, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24, 236.24],
     },
     {
       title: "Old Photographs",
@@ -132,78 +50,18 @@ that you don't have a say`,
       lyricHighlight: "These old photographs / Tell the stories we forgot",
       lyricTranslation: "Memory has its own light.",
       illustration: "photograph",
-      lyrics: `[Verse 1]
-Old photographs on my bed
-Memories filling my head
-What am I to say
-There are so many
-So many to play
-
-[Verse 2]
-You laughed at the things that I said
-Those thoughts still burn in my head
-What are you to say
-There are so little
-So little to waste
-
-[Prechorus]
-Life's a dream
-Said I don't know where to keep it oh
-Dreams they are calling
-Said I don't know, don't know where I'm going whooa baby
-
-[Chorus]
-Old photographs
-As jaded as the sun
-Whatever you could think about
-That lies beneath the clouds
-
-Old photographs
-As faded as the crowd
-Whatever you are doing now
-Remember the good times in the past
-
-[Guitar Solo]
-
-[Verse 3]
-The crazy things that we do
-The places that we used to go
-What are we to say
-There are so many
-Things that we break
-
-[Verse 4]
-One summer we are lazy with this
-The other we are crazy about that
-What are we to say
-There are so little
-Time for a break
-
-[Prechorus]
-Life's a dream
-Said I don't know where to keep it oh
-Dreams they are calling
-Said I don't know, don't know where I'm going whooa baby
-
-[Chorus]
-Old photographs
-As jaded as the sun
-Whatever you could think about
-That lies beneath the clouds
-
-Old photographs
-As faded as the crowd
-Whatever you are doing now
-Remember the good times in the past
-
-[Final Chorus]
-Old photographs
-As crazy as we are
-Whenever you are feeling down
-Remember these old photographs
-
-Whenever you are feeling down
-Remember our old photographs`,
+      lyricsBlocks: [
+        { label: "Verse 1", lines: ["Old photographs on my bed", "Memories filling my head", "What am I to say", "There are so many", "So many to play"] },
+        { label: "Verse 2", lines: ["You laughed at the things that I said", "Those thoughts still burn in my head", "What are you to say", "There are so little", "So little to waste"] },
+        { label: "Prechorus", lines: ["Life's a dream", "Said I don't know where to keep it oh", "Dreams they are calling", "Said I don't know, don't know where I'm going whooa baby"] },
+        { label: "Chorus", lines: ["Old photographs", "As jaded as the sun", "Whatever you could think about", "That lies beneath the clouds", "Old photographs", "As faded as the crowd", "Whatever you are doing now", "Remember the good times in the past"] },
+        { label: "Verse 3", lines: ["The crazy things that we do", "The places that we used to go", "What are we to say", "There are so many", "Things that we break"] },
+        { label: "Verse 4", lines: ["One summer we are lazy with this", "The other we are crazy about that", "What are we to say", "There are so little", "Time for a break"] },
+        { label: "Prechorus", lines: ["Life's a dream", "Said I don't know where to keep it oh", "Dreams they are calling", "Said I don't know, don't know where I'm going whooa baby"] },
+        { label: "Chorus", lines: ["Old photographs", "As jaded as the sun", "Whatever you could think about", "That lies beneath the clouds", "Old photographs", "As faded as the crowd", "Whatever you are doing now", "Remember the good times in the past"] },
+        { label: "Final Chorus", lines: ["Old photographs", "As crazy as we are", "Whenever you are feeling down", "Remember these old photographs", "Whenever you are feeling down", "Remember our old photographs"] },
+      ],
+      lineTimes: [16.0, 20.0, 36.42, 36.42, 36.42, 68.6, 86.36, 111.9, 129.42, 129.42, 133.86, 135.9, 140.18, 145.58, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92, 204.92],
     },
     {
       title: "Look At Me Now",
@@ -218,63 +76,16 @@ Remember our old photographs`,
       lyricHighlight: "Look at me now / I'm not who I was before",
       lyricTranslation: "Survival is its own kind of art.",
       illustration: "rise",
-      lyrics: `[Verse 1]
-Oh, won't you look at me now, I'm feeling insecure
-I must be losing my mind, oh I am feeling cold
-What do you think of the times when I am feeling so jaded
-So look at me
-Just look at me
-
-[Chorus]
-Now… ah ha… I am flying inside
-Now… ah ha… I am flying outside
-Won't you look at me now
-Won't you look at me now
-Won't you look at me now
-Won't you look at me now
-Won't you look at me now
-Yes, I can look alright now
-
-[Verse 2]
-Oh, when the daylight breaks in, I'm waking up unsure
-The world keeps spinning me 'round, I'm crashing on a roll
-But then I'm hearing the sound of all the people turning around
-So look at me
-Just look at me
-
-[Chorus]
-Now… ah ha… I am flying inside
-Now… ah ha… I am flying outside
-Won't you look at me now
-Won't you look at me now
-Won't you look at me now
-Won't you look at me now
-Won't you look at me now
-Yes, I can look alright now
-
-[Bridge]
-I've been hiding in shadows I made
-Running from echoes I never could fade
-But now the silence is bursting to flame
-I'm rising again
-I'm rising again
-
-[Final Chorus]
-Now… ah ha… I am flying inside
-Now… ah ha… I am flying outside
-Won't you look at me now
-Won't you look at me now
-I'm not the same somehow
-Won't you look at me now
-Won't you look at me now
-Oh I can breathe again now
-Yes, I can look alright now
-
-[Outro]
-Look at me now
-Look at me now
-Look at me now
-Yes, I can look alright now`,
+      lyricsBlocks: [
+        { label: "Verse 1", lines: ["Oh, won't you look at me now, I'm feeling insecure", "I must be losing my mind, oh I am feeling cold", "What do you think of the times when I am feeling so jaded", "So look at me", "Just look at me"] },
+        { label: "Chorus", lines: ["Now… ah ha… I am flying inside", "Now… ah ha… I am flying outside", "Won't you look at me now", "Won't you look at me now", "Won't you look at me now", "Won't you look at me now", "Won't you look at me now", "Yes, I can look alright now"] },
+        { label: "Verse 2", lines: ["Oh, when the daylight breaks in, I'm waking up unsure", "The world keeps spinning me 'round, I'm crashing on a roll", "But then I'm hearing the sound of all the people turning around", "So look at me", "Just look at me"] },
+        { label: "Chorus", lines: ["Now… ah ha… I am flying inside", "Now… ah ha… I am flying outside", "Won't you look at me now", "Won't you look at me now", "Won't you look at me now", "Won't you look at me now", "Won't you look at me now", "Yes, I can look alright now"] },
+        { label: "Bridge", lines: ["I've been hiding in shadows I made", "Running from echoes I never could fade", "But now the silence is bursting to flame", "I'm rising again", "I'm rising again"] },
+        { label: "Final Chorus", lines: ["Now… ah ha… I am flying inside", "Now… ah ha… I am flying outside", "Won't you look at me now", "Won't you look at me now", "I'm not the same somehow", "Won't you look at me now", "Won't you look at me now", "Oh I can breathe again now", "Yes, I can look alright now"] },
+        { label: "Outro", lines: ["Look at me now", "Look at me now", "Look at me now", "Yes, I can look alright now"] },
+      ],
+      lineTimes: [15.02, 74.46, 102.68, 163.0, 180.06, 180.06, 180.06, 195.9, 195.9, 195.9, 195.9, 195.9, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8, 202.8],
     },
     {
       title: "Hurt Me No More",
@@ -289,55 +100,14 @@ Yes, I can look alright now`,
       lyricHighlight: "Hurt me no more / I've made up my mind",
       lyricTranslation: "Boundaries are not walls. They are doors you choose to keep closed.",
       illustration: "door",
-      lyrics: `[Verse]
-Oh when I leave my mind
-Sort of just left it behind
-It felt so easy
-Oo im featherlight I've got a war in my mind
-I'm going crazy
-With the hurt inside
-Selective memories sing
-Of strifes that never cease to burn my paper heart
-So crazy
-
-[Chorus]
-Cause I dont wanna dream
-This time to regret tomorrow for today
-Cause sometimes life's a bitch
-Cause I dont wanna live a life that is full of hurt inside
-Wont you hurt me somemore
-Now wont you hurt me somemore
-Now wont you hurt me
-No more
-
-[Verse]
-Oh when I leave my mind
-Sort of just left it behind
-It felt so easy
-Oo im featherlight I've got a war in my mind
-I'm going crazy
-With the hurt inside
-Selective memories sing
-Of strifes that never cease to burn my paper heart
-So crazy
-
-[Chorus]
-Cause I dont wanna dream
-This time to regret tomorrow for today
-Cause sometimes life's a bitch
-Cause I dont wanna live a life that is full of hurt inside
-Wont you hurt me somemore
-Now wont you hurt me somemore
-Now wont you hurt me
-
-[Final Chorus]
-Cause I dont wanna dream
-This time to regret tomorrow for today
-Cause sometimes life's a bitch
-Cause I dont wanna live a life that is full of hurt inside
-Wont you hurt me somemore
-Now wont you hurt me somemore
-Now wont you hurt me no more`,
+      lyricsBlocks: [
+        { label: "Verse", lines: ["Oh when I leave my mind", "Sort of just left it behind", "It felt so easy", "Oo im featherlight I've got a war in my mind", "I'm going crazy", "With the hurt inside", "Selective memories sing", "Of strifes that never cease to burn my paper heart", "So crazy"] },
+        { label: "Chorus", lines: ["Cause I dont wanna dream", "This time to regret tomorrow for today", "Cause sometimes life's a bitch", "Cause I dont wanna live a life that is full of hurt inside", "Wont you hurt me somemore", "Now wont you hurt me somemore", "Now wont you hurt me", "No more"] },
+        { label: "Verse", lines: ["Oh when I leave my mind", "Sort of just left it behind", "It felt so easy", "Oo im featherlight I've got a war in my mind", "I'm going crazy", "With the hurt inside", "Selective memories sing", "Of strifes that never cease to burn my paper heart", "So crazy"] },
+        { label: "Chorus", lines: ["Cause I dont wanna dream", "This time to regret tomorrow for today", "Cause sometimes life's a bitch", "Cause I dont wanna live a life that is full of hurt inside", "Wont you hurt me somemore", "Now wont you hurt me somemore", "Now wont you hurt me"] },
+        { label: "Final Chorus", lines: ["Cause I dont wanna dream", "This time to regret tomorrow for today", "Cause sometimes life's a bitch", "Cause I dont wanna live a life that is full of hurt inside", "Wont you hurt me somemore", "Now wont you hurt me somemore", "Now wont you hurt me no more"] },
+      ],
+      lineTimes: [89.82, 91.9, 91.9, 96.38, 100.96, 100.96, 105.7, 105.7, 113.46, 118.46, 122.5, 127.54, 132.54, 139.56, 143.18, 147.16, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4, 209.4],
     },
     {
       title: "Confused",
@@ -352,43 +122,14 @@ Now wont you hurt me no more`,
       lyricHighlight: "I'm so confused / Don't know which way to go",
       lyricTranslation: "The fog is not a failure. It is the space where you change.",
       illustration: "fog",
-      lyrics: `[Verse 1]
-I'm....
-So confused..
-I'm....
-Just like you..
-Turn around and tell me what are we supposed to do
-I'll leave a page and hook it on, that's simply just for you
-
-[Chorus]
-Love's just rising in the far away sense
-Love's just keeping me so lost....
-Winter's changing seasons for you ooooooh
-Just don't keep me so confused
-
-[Verse 2]
-I'm...
-So confused..
-I.. think
-I love you..
-I think about you everyday and don't know what to do
-Your crazy moves they drive me round; I'm simply so confused
-
-[Chorus]
-Love's just rising in the far away sense
-Love's just keeping me so lost....
-Winter's changing seasons for you ooooooh
-Just don't keep me so confused
-
-[Final Chorus]
-Love's just rising in the far away sense
-Love's just keeping me so lost....
-Winter's changing seasons for you ooooooh
-Just don't keep me so confused
-
-Just don't keep me so confused
-
-[Outro]`,
+      lyricsBlocks: [
+        { label: "Verse 1", lines: ["I'm....", "So confused..", "I'm....", "Just like you..", "Turn around and tell me what are we supposed to do", "I'll leave a page and hook it on, that's simply just for you"] },
+        { label: "Chorus", lines: ["Love's just rising in the far away sense", "Love's just keeping me so lost....", "Winter's changing seasons for you ooooooh", "Just don't keep me so confused"] },
+        { label: "Verse 2", lines: ["I'm...", "So confused..", "I.. think", "I love you..", "I think about you everyday and don't know what to do", "Your crazy moves they drive me round; I'm simply so confused"] },
+        { label: "Chorus", lines: ["Love's just rising in the far away sense", "Love's just keeping me so lost....", "Winter's changing seasons for you ooooooh", "Just don't keep me so confused"] },
+        { label: "Final Chorus", lines: ["Love's just rising in the far away sense", "Love's just keeping me so lost....", "Winter's changing seasons for you ooooooh", "Just don't keep me so confused", "Just don't keep me so confused"] },
+      ],
+      lineTimes: [12.92, 12.92, 12.92, 18.68, 23.66, 27.44, 34.9, 41.2, 46.98, 52.42, 61.36, 61.36, 65.38, 65.38, 71.74, 76.7, 82.76, 89.12, 94.92, 100.5, 130.74, 136.52, 143.02, 148.5, 148.5],
     },
     {
       title: "Selectivism",
@@ -403,46 +144,14 @@ Just don't keep me so confused
       lyricHighlight: "I choose what I remember / Leave the rest behind",
       lyricTranslation: "Memory is not a museum. It is a curation.",
       illustration: "frame",
-      lyrics: `[Verse]
-Don't wanna find out if there's a million stars up in the sky
-Just keep it in your mind
-Don't wanna find out even if it's only tonight
-Cause all I'm thinking of is
-
-[Chorus]
-All i want is just to see you so fine
-Hold you so tight and see your sunshine laughter fly
-To me being happy is what you can't perceive in
-You got a choice now baby
-Sometimes things aint just looking so right.
-Selectivism~
-Think~~
-
-[Verse]
-Sometimes politeness couldn't get you free off the line
-Just keep it in your mind
-Somewhere you could find a band that sings to your desire
-For your soul satisfaction
-
-[Chorus]
-All i want is just to see you so fine
-Hold you so tight and see your sunshine laughter fly
-To me being happy is what you can't perceive in
-You got a choice now baby
-Sometimes things aint just looking so right.
-Selectivism~
-Think~~
-
-[Final Chorus]
-All i want is just to see you so fine
-Hold you so tight and see your sunshine laughter fly
-To me being happy is what you can't perceive in
-You got a choice now baby
-Sometimes things aint just looking so right.
-Selectivism~
-Think~~
-
-You got a choice now baby. Selectivism~ Think.`,
+      lyricsBlocks: [
+        { label: "Verse", lines: ["Don't wanna find out if there's a million stars up in the sky", "Just keep it in your mind", "Don't wanna find out even if it's only tonight", "Cause all I'm thinking of is"] },
+        { label: "Chorus", lines: ["All i want is just to see you so fine", "Hold you so tight and see your sunshine laughter fly", "To me being happy is what you can't perceive in", "You got a choice now baby", "Sometimes things aint just looking so right.", "Selectivism~", "Think~~"] },
+        { label: "Verse", lines: ["Sometimes politeness couldn't get you free off the line", "Just keep it in your mind", "Somewhere you could find a band that sings to your desire", "For your soul satisfaction"] },
+        { label: "Chorus", lines: ["All i want is just to see you so fine", "Hold you so tight and see your sunshine laughter fly", "To me being happy is what you can't perceive in", "You got a choice now baby", "Sometimes things aint just looking so right.", "Selectivism~", "Think~~"] },
+        { label: "Final Chorus", lines: ["All i want is just to see you so fine", "Hold you so tight and see your sunshine laughter fly", "To me being happy is what you can't perceive in", "You got a choice now baby", "Sometimes things aint just looking so right.", "Selectivism~", "Think~~", "You got a choice now baby. Selectivism~ Think."] },
+      ],
+      lineTimes: [13.92, 22.08, 26.08, 34.06, 34.06, 44.16, 49.46, 58.4, 62.48, 68.36, 130.42, 134.94, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78, 222.78],
     },
     {
       title: "Day and Night",
@@ -457,80 +166,18 @@ You got a choice now baby. Selectivism~ Think.`,
       lyricHighlight: "In the day I smile / At night I feel it all",
       lyricTranslation: "You are allowed to be both.",
       illustration: "daynight",
-      lyrics: `[Verse]
-Some days I'm feeling all quite right
-Some days I'm getting all too bright
-Today I'll just wait for the twilight
-
-[Verse]
-Some nights I'm getting all the brine
-Some nights I'm hearing all the whine
-Tonight I'll just wait for the line
-
-[PreChorus]
-No matter if it's day or nite in my life
-You can give me all the sunshine
-And when I look into your eyes
-No matter whatever
-Just seems to be behind
-
-[Chorus]
-All day and all night long
-In my school of crazy thoughts
-Just thinking of you, whoooo ooh
-Sometimes I just wonder why
-I just can't get you off my mind
-All day and all night long
-My world's spinning all along
-Just turning for you, whoooo ooh
-Sometimes I just can't survive
-Without you so I'm missing all day all night long
-
-[Bridge: Melodic Rap]
-Some days I'm calm, but my thoughts drift to you,
-Sippin' through the silence like I always do.
-Some days I glow, but the shine feels untrue,
-'Cause every ray of light just reminds me of you.
-Some nights I fade, sink deep in my mind,
-Playin' back moments we left behind.
-Some nights I wait, hopin' I'll find
-A trace of your voice in the quiet of time.
-
-[PreChorus]
-No matter if it's day or nite in my life
-You can give me all the sunshine
-And when I look into your eyes
-No matter whatever
-Just seems to be behind
-
-[Chorus]
-All day and all night long
-In my school of crazy thoughts
-Just thinking of you, whoooo ooh
-Sometimes I just wonder why
-I just can't get you off my mind
-All day and all night long
-My world's spinning all along
-Just turning for you, whoooo ooh
-Sometimes I just can't survive
-Without you so I'm missing all day all night long
-
-[Outro Rap]
-Some days the sun cuts deep through my eyes,
-And I swear I still see your face in the sky.
-Some nights the stars don't even try,
-Feels like they miss you, same as I.
-I'm still here, lost in the dark,
-Whisperin' your name to the beat of my heart.
-If you ever shine again through the night,
-I'll be the one still thinkin' of you, holdin' that light.
-
-[Final Chorus]
-All day and all night long
-My world's spinning all along
-Just turning for you, whoooo ooh
-Sometimes I just can't survive
-Without you so I'm missing all day all night long`,
+      lyricsBlocks: [
+        { label: "Verse", lines: ["Some days I'm feeling all quite right", "Some days I'm getting all too bright", "Today I'll just wait for the twilight"] },
+        { label: "Verse", lines: ["Some nights I'm getting all the brine", "Some nights I'm hearing all the whine", "Tonight I'll just wait for the line"] },
+        { label: "PreChorus", lines: ["No matter if it's day or nite in my life", "You can give me all the sunshine", "And when I look into your eyes", "No matter whatever", "Just seems to be behind"] },
+        { label: "Chorus", lines: ["All day and all night long", "In my school of crazy thoughts", "Just thinking of you, whoooo ooh", "Sometimes I just wonder why", "I just can't get you off my mind", "All day and all night long", "My world's spinning all along", "Just turning for you, whoooo ooh", "Sometimes I just can't survive", "Without you so I'm missing all day all night long"] },
+        { label: "Bridge: Melodic Rap", lines: ["Some days I'm calm, but my thoughts drift to you,", "Sippin' through the silence like I always do.", "Some days I glow, but the shine feels untrue,", "'Cause every ray of light just reminds me of you.", "Some nights I fade, sink deep in my mind,", "Playin' back moments we left behind.", "Some nights I wait, hopin' I'll find", "A trace of your voice in the quiet of time."] },
+        { label: "PreChorus", lines: ["No matter if it's day or nite in my life", "You can give me all the sunshine", "And when I look into your eyes", "No matter whatever", "Just seems to be behind"] },
+        { label: "Chorus", lines: ["All day and all night long", "In my school of crazy thoughts", "Just thinking of you, whoooo ooh", "Sometimes I just wonder why", "I just can't get you off my mind", "All day and all night long", "My world's spinning all along", "Just turning for you, whoooo ooh", "Sometimes I just can't survive", "Without you so I'm missing all day all night long"] },
+        { label: "Outro Rap", lines: ["Some days the sun cuts deep through my eyes,", "And I swear I still see your face in the sky.", "Some nights the stars don't even try,", "Feels like they miss you, same as I.", "I'm still here, lost in the dark,", "Whisperin' your name to the beat of my heart.", "If you ever shine again through the night,", "I'll be the one still thinkin' of you, holdin' that light."] },
+        { label: "Final Chorus", lines: ["All day and all night long", "My world's spinning all along", "Just turning for you, whoooo ooh", "Sometimes I just can't survive", "Without you so I'm missing all day all night long"] },
+      ],
+      lineTimes: [13.04, 19.52, 25.2, 36.8, 42.58, 48.6, 59.68, 65.76, 71.6, 76.22, 76.22, 82.92, 86.3, 89.1, 95.32, 99.62, 106.62, 106.62, 112.9, 119.62, 123.62, 130.02, 133.08, 135.72, 138.86, 141.68, 144.84, 147.4, 152.04, 153.58, 159.46, 164.58, 169.92, 169.92, 177.2, 180.24, 183.14, 190.24, 193.76, 201.24, 241.84, 254.98, 261.08, 265.02, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26, 270.26],
     },
   ];
 
@@ -894,18 +541,18 @@ Without you so I'm missing all day all night long`,
                           Full Lyrics
                         </p>
                         <div className="text-sm leading-loose" style={{ color: "rgba(255,255,255,0.55)" }}>
-                          {track.lyrics.split('\n').map((line, li) => {
-                            const isSection = /^\[.+\]$/.test(line.trim());
-                            if (isSection) {
-                              return (
-                                <p key={li} className="text-xs uppercase tracking-widest mt-6 mb-2 font-medium" style={{ color: `${track.accent}70` }}>
-                                  {line.replace(/[\[\]]/g, '')}
+                          {track.lyricsBlocks?.map((block, bi) => (
+                            <div key={bi} className="mb-4">
+                              {block.label && (
+                                <p className="text-xs uppercase tracking-widest mt-6 mb-2 font-medium" style={{ color: `${track.accent}70` }}>
+                                  {block.label}
                                 </p>
-                              );
-                            }
-                            if (line.trim() === '') return <div key={li} className="h-2" />;
-                            return <p key={li}>{line}</p>;
-                          })}
+                              )}
+                              {block.lines.map((line, li) => (
+                                <p key={li}>{line}</p>
+                              ))}
+                            </div>
+                          ))}
                         </div>
                       </div>
                     </div>
