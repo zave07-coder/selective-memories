@@ -14,8 +14,8 @@ export default function Home() {
   const tracks = [
     {
       title: "Circle Of Craze",
-      url: "https://cdn1.suno.ai/d0c6cbea-c705-48d8-bfab-254b1befe044.mp3",
-      cover: "https://cdn2.suno.ai/image_large_d0c6cbea-c705-48d8-bfab-254b1befe044.jpeg",
+      url: "/proxy/audio/d0c6cbea-c705-48d8-bfab-254b1befe044",
+      cover: "/proxy/image/d0c6cbea-c705-48d8-bfab-254b1befe044",
       chapter: "Track 1 · The Spiral",
       act: "ACT I — THE UNRAVELING",
       mood: "Obsession",
@@ -39,8 +39,8 @@ export default function Home() {
     },
     {
       title: "Old Photographs",
-      url: "https://cdn1.suno.ai/cec9d85d-48d8-4f01-b5d4-63672b288f8e.mp3",
-      cover: "https://cdn2.suno.ai/image_large_cec9d85d-48d8-4f01-b5d4-63672b288f8e.jpeg",
+      url: "/proxy/audio/cec9d85d-48d8-4f01-b5d4-63672b288f8e",
+      cover: "/proxy/image/cec9d85d-48d8-4f01-b5d4-63672b288f8e",
       chapter: "Track 2 · The Archive",
       act: "ACT I — THE UNRAVELING",
       mood: "Nostalgia",
@@ -65,8 +65,8 @@ export default function Home() {
     },
     {
       title: "Look At Me Now",
-      url: "https://cdn1.suno.ai/b3858920-e084-403d-a661-d9a2ce7e870e.mp3",
-      cover: "https://cdn2.suno.ai/image_large_b3858920-e084-403d-a661-d9a2ce7e870e.jpeg",
+      url: "/proxy/audio/b3858920-e084-403d-a661-d9a2ce7e870e",
+      cover: "/proxy/image/b3858920-e084-403d-a661-d9a2ce7e870e",
       chapter: "Track 3 · The Rise",
       act: "ACT II — THE TURNING",
       mood: "Defiance",
@@ -89,8 +89,8 @@ export default function Home() {
     },
     {
       title: "Hurt Me No More",
-      url: "https://cdn1.suno.ai/c60c1c62-4d09-41e9-94e8-7908c7e001b9.mp3",
-      cover: "https://cdn2.suno.ai/image_large_c60c1c62-4d09-41e9-94e8-7908c7e001b9.jpeg",
+      url: "/proxy/audio/c60c1c62-4d09-41e9-94e8-7908c7e001b9",
+      cover: "/proxy/image/c60c1c62-4d09-41e9-94e8-7908c7e001b9",
       chapter: "Track 4 · The Line",
       act: "ACT II — THE TURNING",
       mood: "Resolution",
@@ -111,8 +111,8 @@ export default function Home() {
     },
     {
       title: "Confused",
-      url: "https://cdn1.suno.ai/58f8c4fb-f722-4563-893a-f88fa6d89c1c.mp3",
-      cover: "https://cdn2.suno.ai/image_large_58f8c4fb-f722-4563-893a-f88fa6d89c1c.jpeg",
+      url: "/proxy/audio/58f8c4fb-f722-4563-893a-f88fa6d89c1c",
+      cover: "/proxy/image/58f8c4fb-f722-4563-893a-f88fa6d89c1c",
       chapter: "Track 5 · The Fog",
       act: "ACT II — THE TURNING",
       mood: "Liminal",
@@ -133,8 +133,8 @@ export default function Home() {
     },
     {
       title: "Selectivism",
-      url: "https://cdn1.suno.ai/d034bcf9-09f5-49cd-9479-0bfadab1675f.mp3",
-      cover: "https://cdn2.suno.ai/image_large_d034bcf9-09f5-49cd-9479-0bfadab1675f.jpeg",
+      url: "/proxy/audio/d034bcf9-09f5-49cd-9479-0bfadab1675f",
+      cover: "/proxy/image/d034bcf9-09f5-49cd-9479-0bfadab1675f",
       chapter: "Track 6 · The Choice",
       act: "ACT III — THE CURATION",
       mood: "Clarity",
@@ -155,8 +155,8 @@ export default function Home() {
     },
     {
       title: "Day and Night",
-      url: "https://cdn1.suno.ai/a454d8ef-a286-43e9-8d4d-fdf2f4ed18d2.mp3",
-      cover: "https://cdn2.suno.ai/image_large_a454d8ef-a286-43e9-8d4d-fdf2f4ed18d2.jpeg",
+      url: "/proxy/audio/a454d8ef-a286-43e9-8d4d-fdf2f4ed18d2",
+      cover: "/proxy/image/a454d8ef-a286-43e9-8d4d-fdf2f4ed18d2",
       chapter: "Track 7 · The Balance",
       act: "ACT III — THE CURATION",
       mood: "Acceptance",
